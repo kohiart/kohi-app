@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kohi.App", "src\Kohi.App\Kohi.App.csproj", "{196170DD-8CD0-4DD6-B4A2-4A457699A819}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{A1701BCA-6EB1-4C90-9F0D-08B0CCC0070E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNA.Core", "lib\FNA\FNA.Core.csproj", "{E3D8E42F-F74F-4598-B442-535F99619DC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImGui.NET", "lib\ImGui.NET\src\ImGui.NET\ImGui.NET.csproj", "{794469D4-105A-48B4-8B48-64D444AA2106}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{F587E189-FEA6-4ACF-ABF3-9005EF2E8B0C}"
+	ProjectSection(SolutionItems) = preProject
+		build\CopyLibraries.targets = build\CopyLibraries.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{196170DD-8CD0-4DD6-B4A2-4A457699A819}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{196170DD-8CD0-4DD6-B4A2-4A457699A819}.Debug|Any CPU.Build.0 = Debug|x64
+		{196170DD-8CD0-4DD6-B4A2-4A457699A819}.Debug|x64.ActiveCfg = Debug|x64
+		{196170DD-8CD0-4DD6-B4A2-4A457699A819}.Debug|x64.Build.0 = Debug|x64
+		{196170DD-8CD0-4DD6-B4A2-4A457699A819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196170DD-8CD0-4DD6-B4A2-4A457699A819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196170DD-8CD0-4DD6-B4A2-4A457699A819}.Release|x64.ActiveCfg = Release|x64
+		{196170DD-8CD0-4DD6-B4A2-4A457699A819}.Release|x64.Build.0 = Release|x64
+		{E3D8E42F-F74F-4598-B442-535F99619DC8}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{E3D8E42F-F74F-4598-B442-535F99619DC8}.Debug|Any CPU.Build.0 = Debug|x64
+		{E3D8E42F-F74F-4598-B442-535F99619DC8}.Debug|x64.ActiveCfg = Debug|x64
+		{E3D8E42F-F74F-4598-B442-535F99619DC8}.Debug|x64.Build.0 = Debug|x64
+		{E3D8E42F-F74F-4598-B442-535F99619DC8}.Release|Any CPU.ActiveCfg = Release|x64
+		{E3D8E42F-F74F-4598-B442-535F99619DC8}.Release|Any CPU.Build.0 = Release|x64
+		{E3D8E42F-F74F-4598-B442-535F99619DC8}.Release|x64.ActiveCfg = Release|x64
+		{E3D8E42F-F74F-4598-B442-535F99619DC8}.Release|x64.Build.0 = Release|x64
+		{794469D4-105A-48B4-8B48-64D444AA2106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794469D4-105A-48B4-8B48-64D444AA2106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794469D4-105A-48B4-8B48-64D444AA2106}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{794469D4-105A-48B4-8B48-64D444AA2106}.Debug|x64.Build.0 = Debug|Any CPU
+		{794469D4-105A-48B4-8B48-64D444AA2106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794469D4-105A-48B4-8B48-64D444AA2106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794469D4-105A-48B4-8B48-64D444AA2106}.Release|x64.ActiveCfg = Release|Any CPU
+		{794469D4-105A-48B4-8B48-64D444AA2106}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3D8E42F-F74F-4598-B442-535F99619DC8} = {A1701BCA-6EB1-4C90-9F0D-08B0CCC0070E}
+		{794469D4-105A-48B4-8B48-64D444AA2106} = {A1701BCA-6EB1-4C90-9F0D-08B0CCC0070E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F21A3756-62BC-47E9-90C4-7B7BDE0ED7D9}
+	EndGlobalSection
+EndGlobal
