@@ -1,0 +1,6 @@
+[submodule "lib/ImGui.NET"]
+	path = lib/ImGui.NET
+	url = https://github.com/mellinoe/ImGui.NET
+[submodule "lib/FNA"]
+	path = lib/FNA
+	url = https://github.com/FNA-XNA/FNA
